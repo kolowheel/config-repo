@@ -5,7 +5,7 @@ eureka:
   client:
     serviceUrl:
       defaultZone: ${vcap.services.${PREFIX:}othereureka.credentials.uri:http://${PREFIX:}othereureka.${application.domain:cfapps.io}}/eureka/
-unit : EVA03
+unit : EVA01(pilot:sinzi|ikari)
 ---
 spring:
   profiles: docker
