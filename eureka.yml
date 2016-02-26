@@ -1,6 +1,6 @@
 ---
 spring:
-  profiles: default
+  profiles: EVANGELION
 eureka:
   client:
     serviceUrl:
